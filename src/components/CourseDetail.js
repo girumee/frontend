@@ -33,39 +33,57 @@ function CourseDetail() {
         <ul className="list-group list-group-flush">
           <li className="list-group-item">
             Introduction{" "}
-            <button className="btn btn-sm btn-secondary float-end">
-              Play <i class="bi bi-play-circle"></i>
-            </button>
-          </li>
-          <li className="list-group-item">
-            Setup Project{" "}
-            <button className="btn btn-sm btn-secondary float-end">
-              Play <i class="bi bi-play-circle"></i>
-            </button>
-          </li>
-          <li className="list-group-item">
-            Start with function{" "}
-            <button className="btn btn-sm btn-secondary float-end">
-              Play <i class="bi bi-play-circle"></i>
-            </button>
+            <span className="float-end">
+              <span className="me-3">1 Hour 30 Minuts</span>
+              <button className="btn btn-sm btn-danger">
+                Play <i class="bi bi-play-circle"></i>
+              </button>
+            </span>
           </li>
           <li className="list-group-item">
             Introduction{" "}
-            <button className="btn btn-sm btn-secondary float-end">
-              Play <i class="bi bi-play-circle"></i>
-            </button>
+            <span className="float-end">
+              <span className="me-3">1 Hour 30 Minuts</span>
+              <button className="btn btn-sm btn-danger">
+                Play <i class="bi bi-play-circle"></i>
+              </button>
+            </span>
           </li>
           <li className="list-group-item">
-            Setup Project{" "}
-            <button className="btn btn-sm btn-secondary float-end">
-              Play <i class="bi bi-play-circle"></i>
-            </button>
+            Introduction{" "}
+            <span className="float-end">
+              <span className="me-3">1 Hour 30 Minuts</span>
+              <button className="btn btn-sm btn-danger">
+                Play <i class="bi bi-play-circle"></i>
+              </button>
+            </span>
           </li>
           <li className="list-group-item">
-            Start with function{" "}
-            <button className="btn btn-sm btn-secondary float-end">
-              Play <i class="bi bi-play-circle"></i>
-            </button>
+            Introduction{" "}
+            <span className="float-end">
+              <span className="me-3">1 Hour 30 Minuts</span>
+              <button className="btn btn-sm btn-danger">
+                Play <i class="bi bi-play-circle"></i>
+              </button>
+            </span>
+          </li>
+          <li className="list-group-item">
+            Introduction{" "}
+            <span className="float-end">
+              <span className="me-3">1 Hour 30 Minuts</span>
+              <button className="btn btn-sm btn-danger">
+                Play <i class="bi bi-play-circle"></i>
+              </button>
+            </span>
+          </li>
+          <li className="list-group-item">
+            Introduction{" "}
+            <span className="float-end">
+              <span className="me-3">1 Hour 30 Minuts</span>
+              <button className="btn btn-sm btn-danger">
+                Play <i class="bi bi-play-circle"></i>
+              </button>
+            </span>
           </li>
         </ul>
       </div>

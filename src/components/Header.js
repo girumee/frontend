@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { Link } from "react-router-dom";
 
@@ -6,7 +7,10 @@ function Header() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
         <Link className="navbar-brand" to="/">
-          Dan Training
+          <img
+            className="img1"
+            src="https://res.cloudinary.com/ddyvv0new/image/upload/v1665349250/e1-red-black-min_xqqxiy.gif"
+          />
         </Link>
         <button
           className="navbar-toggler"
