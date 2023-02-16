@@ -1,4 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import { Link } from "react-router-dom";
+
 function Home() {
   return (
     <div className="container mt-3">
@@ -12,40 +14,48 @@ function Home() {
       <div className="row mb-4">
         <div className="col-md-3">
           <div className="card">
-            <img src="logo512.png" className="card-img-top" alt="..." />
+            <Link to="/detail/1">
+              <img src="logo512.png" className="card-img-top" alt="..." />
+            </Link>
             <div className="card-body">
               <h5 className="card-title">
-                <a href="#">Course Title</a>
+                <Link to="/detail/1">Course Title</Link>
               </h5>
             </div>
           </div>
         </div>
         <div className="col-md-3">
           <div className="card">
-            <img src="logo512.png" className="card-img-top" alt="..." />
+            <Link to="/detail/2">
+              <img src="logo512.png" className="card-img-top" alt="..." />
+            </Link>
             <div className="card-body">
               <h5 className="card-title">
-                <a href="#">Course Title</a>
+                <Link to="/detail/2">Course Title</Link>
               </h5>
             </div>
           </div>
         </div>
         <div className="col-md-3">
           <div className="card">
-            <img src="logo512.png" className="card-img-top" alt="..." />
+            <Link to="/detail/3">
+              <img src="logo512.png" className="card-img-top" alt="..." />
+            </Link>
             <div className="card-body">
               <h5 className="card-title">
-                <a href="#">Course Title</a>
+                <Link to="/detail/3">Course Title</Link>
               </h5>
             </div>
           </div>
         </div>{" "}
         <div className="col-md-3">
           <div className="card">
-            <img src="logo512.png" className="card-img-top" alt="..." />
+            <Link to="/detail/4">
+              <img src="logo512.png" className="card-img-top" alt="..." />
+            </Link>
             <div className="card-body">
               <h5 className="card-title">
-                <a href="#">Course Title</a>
+                <Link to="/detail/4">Course Title</Link>
               </h5>
             </div>
           </div>
@@ -104,9 +114,9 @@ function Home() {
       </div>
       {/*End Popular Courses */}
 
-      {/* Featurs Teachers */}
+      {/* Popular Teachers */}
       <h3 className="pb-1 my-4">
-        Features Teachers{" "}
+        Popular Teachers{" "}
         <a href="#" className="float-end">
           See All
         </a>{" "}
@@ -117,7 +127,7 @@ function Home() {
             <img src="logo512.png" className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title">
-                <a href="#">Features Teacher</a>
+                <a href="#">Teacher Name</a>
               </h5>
             </div>
           </div>
@@ -127,7 +137,7 @@ function Home() {
             <img src="logo512.png" className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title">
-                <a href="#">Features Teacher</a>
+                <a href="#">Teacher Name</a>
               </h5>
             </div>
           </div>
@@ -137,7 +147,7 @@ function Home() {
             <img src="logo512.png" className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title">
-                <a href="#">Features Teacher</a>
+                <a href="#">Teacher Name</a>
               </h5>
             </div>
           </div>
@@ -147,7 +157,7 @@ function Home() {
             <img src="logo512.png" className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title">
-                <a href="#">Features Teacher</a>
+                <a href="#">Teacher Name</a>
               </h5>
             </div>
           </div>
@@ -160,7 +170,7 @@ function Home() {
       <div className="row mb-4">
         <div
           id="carouselExampleIndicators"
-          className="carousel slide bg-dark text-white py-5">
+          className="carousel slide bg-dark text-white py-5 ">
           <div className="carousel-indicators">
             <button
               type="button"
