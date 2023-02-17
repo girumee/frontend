@@ -85,7 +85,7 @@ function Register() {
               </div>
               <p className="py-2">
                 {" "}
-                Already have an account? <a href="/user-login">Log in here</a>
+                Already have an account? <a href="/user-login">Login Here</a>
               </p>
             </form>
           </div>

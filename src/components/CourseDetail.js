@@ -34,7 +34,7 @@ function CourseDetail() {
           <li className="list-group-item">
             Introduction{" "}
             <span className="float-end">
-              <span className="me-3">1 Hour 30 Minuts</span>
+              <span className="me-3">1 Hour 30 Minits</span>
               <button className="btn btn-sm btn-danger">
                 Play <i class="bi bi-play-circle"></i>
               </button>

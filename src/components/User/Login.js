@@ -57,7 +57,7 @@ function Login() {
               <p className="py-2">
                 {" "}
                 Don't have an account?{" "}
-                <a href="/user-register">Register here</a>
+                <a href="/user-register">Register Here</a>
               </p>
             </form>
           </div>
