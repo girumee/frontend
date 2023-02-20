@@ -18,7 +18,7 @@ function CourseDetail() {
             horizontal in a mobile-friendly and responsive way.{" "}
           </p>
           <p className="fw-bold">
-            Course By: <a href="#">Teacher 1</a>
+            Course By: <Link to="/teacher_detail/1 ">Teacher 1</Link>
           </p>
           <p className="fw-bold">
             Duration: <a href="#">3 Hours 30 minutes </a>{" "}
@@ -34,60 +34,93 @@ function CourseDetail() {
           <li className="list-group-item">
             Introduction{" "}
             <span className="float-end">
-              <span className="me-3">1 Hour 30 Minits</span>
+              <span className="me-3">1 Hour 30 Minuets</span>
+              <button
+                className="btn btn-sm btn-danger"
+                data-bs-toggle="modal"
+                data-bs-target="#VideoModal1">
+                Play <i className="bi bi-play-circle"></i>
+              </button>
+            </span>
+            {/* <!--Start Video Modal --> */}
+            <div
+              className="modal fade"
+              id="VideoModal1"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div className="modal-dialog modal-lg">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <h1 className="modal-title fs-5" id="exampleModalLabel">
+                      Video 1
+                    </h1>
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div className="modal-body">
+                    <div class="ratio ratio-16x9">
+                      <iframe
+                        src="https://www.youtube.com/watch?v=qbPxZPsjhbg"
+                        title="YouTube video"
+                        allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* <!--End Video Modal --> */}
+          </li>
+          <li className="list-group-item">
+            Introduction{" "}
+            <span className="float-end">
+              <span className="me-3">1 Hour 30 Minuets</span>
               <button className="btn btn-sm btn-danger">
-                Play <i class="bi bi-play-circle"></i>
+                Play <i className="bi bi-play-circle"></i>
               </button>
             </span>
           </li>
           <li className="list-group-item">
             Introduction{" "}
             <span className="float-end">
-              <span className="me-3">1 Hour 30 Minuts</span>
+              <span className="me-3">1 Hour 30 Minuets</span>
               <button className="btn btn-sm btn-danger">
-                Play <i class="bi bi-play-circle"></i>
+                Play <i className="bi bi-play-circle"></i>
               </button>
             </span>
           </li>
           <li className="list-group-item">
             Introduction{" "}
             <span className="float-end">
-              <span className="me-3">1 Hour 30 Minuts</span>
+              <span className="me-3">1 Hour 30 Minuets</span>
               <button className="btn btn-sm btn-danger">
-                Play <i class="bi bi-play-circle"></i>
+                Play <i className="bi bi-play-circle"></i>
               </button>
             </span>
           </li>
           <li className="list-group-item">
             Introduction{" "}
             <span className="float-end">
-              <span className="me-3">1 Hour 30 Minuts</span>
+              <span className="me-3">1 Hour 30 Minuets</span>
               <button className="btn btn-sm btn-danger">
-                Play <i class="bi bi-play-circle"></i>
+                Play <i className="bi bi-play-circle"></i>
               </button>
             </span>
           </li>
           <li className="list-group-item">
             Introduction{" "}
             <span className="float-end">
-              <span className="me-3">1 Hour 30 Minuts</span>
+              <span className="me-3">1 Hour 30 Minuets</span>
               <button className="btn btn-sm btn-danger">
-                Play <i class="bi bi-play-circle"></i>
-              </button>
-            </span>
-          </li>
-          <li className="list-group-item">
-            Introduction{" "}
-            <span className="float-end">
-              <span className="me-3">1 Hour 30 Minuts</span>
-              <button className="btn btn-sm btn-danger">
-                Play <i class="bi bi-play-circle"></i>
+                Play <i className="bi bi-play-circle"></i>
               </button>
             </span>
           </li>
         </ul>
       </div>
-
       <h3 className="pb-1 mb-4 py-5">Related Courses </h3>
       <div className="row mb-4">
         <div className="col-md-3">

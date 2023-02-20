@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { Link } from "react-router-dom";
-import "./Login.css";
+import "./TeacherLogin.css";
 
-function Login() {
+function TeacherLogin() {
   return (
     <section className="Form my-4 mx-5">
       <div className="container">
@@ -11,29 +11,29 @@ function Login() {
             <img src="./dan1.gif" className="img-fluid img" alt="" />
           </div>
           <div className="col-lg-6 px-5 pt-5">
-            <h1 className="font-weight-bold py-2">User Login</h1>
+            <h1 className="font-weight-bold py-2"> Teacher Login</h1>
             <h3 className="py-2"> Dan Training Center </h3>
             <form>
-              <div className="form-row py-2">
-                <div className="col-lg-9 ">
+              <div className="form-row">
+                <div class="form-floating mb-2 col-lg-9">
                   <input
                     type="email"
+                    class="form-control"
+                    id="floatingInput"
                     placeholder="Email Address"
-                    className="form-control"
-                    my-4="true"
-                    p-2="true"
                   />
+                  <label for="floatingInput">name@example.com</label>
                 </div>
               </div>
               <div className="form-row">
-                <div className="col-lg-9">
+                <div className="form-floating mb-2 col-lg-9">
                   <input
                     type="password"
-                    placeholder="********"
                     className="form-control"
-                    my-4="true"
-                    p-2="true"
+                    id="floatingInput"
+                    placeholder="********"
                   />
+                  <label for="floatingInput">Password</label>
                 </div>
               </div>
               <div className=" mt-3 mb-2">
@@ -57,7 +57,7 @@ function Login() {
               <p className="py-2">
                 {" "}
                 Don't have an account?{" "}
-                <a href="/user-register">Register Here</a>
+                <a href="/teacher-register">Register Here</a>
               </p>
             </form>
           </div>
@@ -67,4 +67,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default TeacherLogin;

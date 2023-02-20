@@ -28,18 +28,57 @@ function Header() {
             <Link className="nav-link" aria-current="page" to="/courses">
               <i class="bi bi-collection-play"></i> Courses
             </Link>
-            <Link className="nav-link" aria-current="page" to="/teachers">
-              <i class="bi bi-person-video2"></i> Teachers
-            </Link>
             <li className="nav-item dropdown">
               <a
-                className="nav-link dropdown-toggel"
+                className="nav-link dropdown-toggle"
                 href="#"
                 id="navbarDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false">
-                User <i class="bi bi-caret-down"></i>
+                Teacher
+              </a>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <Link
+                    className="dropdown-item"
+                    aria-current="page"
+                    to="/teacher-login">
+                    <i class="bi bi-box-arrow-in-right"></i> Log In
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="dropdown-item"
+                    aria-current="page"
+                    to="/teacher-register">
+                    <i class="bi bi-person-add"></i> Register
+                  </Link>
+                </li>
+
+                <hr className="dropdown-divider" />
+                <li>
+                  <Link
+                    className="dropdown-item"
+                    aria-current="page"
+                    to="/teacher-dashboard">
+                    <i class="bi bi-speedometer"></i> Dashboard
+                  </Link>
+                  <Link Link className="dropdown-item" to="/teacher-login">
+                    <i class="bi bi-box-arrow-left"></i> Logout
+                  </Link>
+                </li>
+              </ul>
+            </li>
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+                User
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
@@ -58,19 +97,18 @@ function Header() {
                     <i class="bi bi-person-add"></i> Register
                   </Link>
                 </li>
+
+                <hr className="dropdown-divider" />
                 <li>
-                  <hr className="dropdown-divider" />
-                  <li>
-                    <Link
-                      className="dropdown-item"
-                      aria-current="page"
-                      to="/dashboard">
-                      <i class="bi bi-speedometer"></i> Dashboard
-                    </Link>
-                    <Link Link className="dropdown-item" to="/user-login">
-                      <i class="bi bi-box-arrow-left"></i> Logout
-                    </Link>
-                  </li>
+                  <Link
+                    className="dropdown-item"
+                    aria-current="page"
+                    to="/user-dashboard">
+                    <i class="bi bi-speedometer"></i> Dashboard
+                  </Link>
+                  <Link Link className="dropdown-item" to="/user-login">
+                    <i class="bi bi-box-arrow-left"></i> Logout
+                  </Link>
                 </li>
               </ul>
             </li>

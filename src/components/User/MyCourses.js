@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Sidebar from "./Sidebar";
 
-function Mycourses() {
+function MyCourses() {
   return (
     <div className="container mt-4">
       <div className="row">
@@ -16,7 +16,7 @@ function Mycourses() {
                 <thead>
                   <tr>
                     <th>Name</th>
-                    <th>Creacted By</th>
+                    <th>Created By</th>
                     <th>Action</th>
                   </tr>
                 </thead>
@@ -40,4 +40,4 @@ function Mycourses() {
   );
 }
 
-export default Mycourses;
+export default MyCourses;

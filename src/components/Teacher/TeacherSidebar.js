@@ -1,41 +1,41 @@
 import { Link } from "react-router-dom";
 
-function Sidebar() {
+function TeacherSidebar() {
   return (
     <div className="card">
       <div className="list-group list-group-flush">
         <Link
-          to="/user-dashboard"
+          to="/teacher-dashboard"
           className="list-group-item list-group-item-action">
           <i class="bi bi-collection-play"></i> Dashboard
         </Link>
         <Link
-          to="/my-courses"
+          to="/teacher-my-courses"
           className="list-group-item list-group-item-action">
           <i class="bi bi-collection-play"></i> My Courses
         </Link>
         <Link
-          to="/favorite-courses"
+          to="/teacher-add-course"
           className="list-group-item list-group-item-action">
-          <i class="bi bi-heart"></i> Favorite Courses
+          <i class="bi bi-collection-play"></i> Add Course
         </Link>
         <Link
-          to="/recommended-courses"
+          to="/teacher-my-users"
           className="list-group-item list-group-item-action">
-          <i class="bi bi-hand-thumbs-up"></i> Recommended Courses
+          <i class="bi bi-collection-play"></i> My Users
         </Link>
         <Link
-          to="/profile-setting"
+          to="/teacher-profile-setting"
           className="list-group-item list-group-item-action">
           <i class="bi bi-gear"></i> Profile Setting
         </Link>
         <Link
-          to="/change-password"
+          to="/teacher-change-password"
           className="list-group-item list-group-item-action">
           <i class="bi bi-lock"></i> Change Password
         </Link>
         <Link
-          to="/user-login"
+          to="/teacher-login"
           className="list-group-item list-group-item-action text-danger">
           <i class="bi bi-box-arrow-left"></i> Logout
         </Link>
@@ -44,4 +44,4 @@ function Sidebar() {
   );
 }
 
-export default Sidebar;
+export default TeacherSidebar;

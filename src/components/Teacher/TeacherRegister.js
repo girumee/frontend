@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { Link } from "react-router-dom";
-import "./Register.css";
+import "./TeacherRegister.css";
 
-function Register() {
+function TeacherRegister() {
   return (
     <section className="Form my-4 mx-5">
       <div className="container">
@@ -11,7 +11,7 @@ function Register() {
             <img src="./dan1.gif" className="img-fluid img" alt="" />
           </div>
           <div className="col-lg-6 px-5 pt-2">
-            <h1 className="font-weight-bold py-2">User Registration</h1>
+            <h1 className="font-weight-bold py-2">Teacher Registration</h1>
             <h3 className="py-2"> Dan Training Center </h3>
             <form>
               <div className="form-row">
@@ -56,13 +56,13 @@ function Register() {
                 <div className="col-lg-9 py-2">
                   <input
                     type="text"
-                    placeholder="Interest"
+                    placeholder="Qualification"
                     className="form-control"
                     my-4="true"
                     p-2="true"
                   />
                   <div id="emailHelp" className="form-text">
-                    Php, Python, JavaScript, etc
+                    Bsc, Msc, Mgt, etc
                   </div>
                 </div>
               </div>
@@ -85,7 +85,7 @@ function Register() {
               </div>
               <p className="py-2">
                 {" "}
-                Already have an account? <a href="/user-login">Login Here</a>
+                Already have an account? <a href="/teacher-login">Login Here</a>
               </p>
             </form>
           </div>
@@ -95,4 +95,4 @@ function Register() {
   );
 }
 
-export default Register;
+export default TeacherRegister;
