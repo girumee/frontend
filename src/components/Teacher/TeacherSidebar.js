@@ -7,37 +7,37 @@ function TeacherSidebar() {
         <Link
           to="/teacher-dashboard"
           className="list-group-item list-group-item-action">
-          <i class="bi bi-collection-play"></i> Dashboard
+          <i className="bi bi-speedometer"></i> Dashboard
         </Link>
         <Link
           to="/teacher-my-courses"
           className="list-group-item list-group-item-action">
-          <i class="bi bi-collection-play"></i> My Courses
+          <i className="bi bi-collection-play"></i> Trainings
         </Link>
         <Link
           to="/teacher-add-course"
           className="list-group-item list-group-item-action">
-          <i class="bi bi-collection-play"></i> Add Course
+          <i class="bi bi-database-add"></i> Add Training
         </Link>
         <Link
           to="/teacher-my-users"
           className="list-group-item list-group-item-action">
-          <i class="bi bi-collection-play"></i> My Users
+          <i class="bi bi-person"></i> Users
         </Link>
         <Link
           to="/teacher-profile-setting"
           className="list-group-item list-group-item-action">
-          <i class="bi bi-gear"></i> Profile Setting
+          <i className="bi bi-gear"></i> Profile Setting
         </Link>
         <Link
           to="/teacher-change-password"
           className="list-group-item list-group-item-action">
-          <i class="bi bi-lock"></i> Change Password
+          <i className="bi bi-lock"></i> Change Password
         </Link>
         <Link
-          to="/teacher-login"
+          to="/teacher-logout"
           className="list-group-item list-group-item-action text-danger">
-          <i class="bi bi-box-arrow-left"></i> Logout
+          <i className="bi bi-box-arrow-left"></i> Logout
         </Link>
       </div>
     </div>

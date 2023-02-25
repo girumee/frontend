@@ -1,0 +1,23 @@
+.chakra-stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.css-0 {
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.dan {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  margin: 0px;
+  padding-top: 10px;
+}

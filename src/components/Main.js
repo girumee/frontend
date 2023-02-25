@@ -16,12 +16,20 @@ import Footer from "./Footer";
 
 //Teachers
 import TeacherLogin from "./Teacher/TeacherLogin";
+import TeacherLogout from "./Teacher/TeacherLogout";
 import TeacherRegister from "./Teacher/TeacherRegister";
 import TeacherDashboard from "./Teacher/TeacherDashboard";
 import TeacherMyCourses from "./Teacher/TeacherMyCourses";
 import TeacherAddCourses from "./Teacher/TeacherAddCourses";
+import TeacherMyUses from "./Teacher/TeacherMyUsers";
 import TeacherProfileSetting from "./Teacher/TeacherProfileSetting";
 import TeacherChangePassword from "./Teacher/TeacherChangePassword";
+
+//List pages
+import AllCourses from "./AllCourses";
+import PopularCourses from "./PopularCourses";
+import PopularTeachers from "./PopularTeachers";
+import CategoryCourses from "./CategoryCourses";
 
 import { Routes as Switch, Route } from "react-router-dom";
 
@@ -31,8 +39,8 @@ function Main() {
       <Header />
       <Switch>
         <Route path="/" element={<Home />} />
-        <Route path="/detail/:course_id" element={<CourseDetail />} />
-        <Route path="/teacher_detail/:teacher_id" element={<TeacherDetail />} />
+        <Route path="/course-detail/:course_id" element={<CourseDetail />} />
+        <Route path="/teacher-detail/:teacher_id" element={<TeacherDetail />} />
 
         {/* Users */}
         <Route path="/user-login/" element={<Login />} />
@@ -46,9 +54,11 @@ function Main() {
 
         {/* Teachers */}
         <Route path="/teacher-login/" element={<TeacherLogin />} />
+        <Route path="/teacher-logout/" element={<TeacherLogout />} />
         <Route path="/teacher-register/" element={<TeacherRegister />} />
         <Route path="/teacher-dashboard/" element={<TeacherDashboard />} />
-        <Route path="/teacher-my-courses/" element={<TeacherMyCourses />} />
+        <Route path="/teacher-my-Courses/" element={<TeacherMyCourses />} />
+        <Route path="/teacher-my-Users/" element={<TeacherMyUses />} />
         <Route path="/teacher-add-course/" element={<TeacherAddCourses />} />
         <Route
           path="/teacher-profile-setting/"
@@ -58,6 +68,12 @@ function Main() {
           path="/teacher-change-password/"
           element={<TeacherChangePassword />}
         />
+
+        {/* List page */}
+        <Route path="/all-courses/" element={<AllCourses />} />
+        <Route path="/popular-courses/" element={<PopularCourses />} />
+        <Route path="/popular-teachers/" element={<PopularTeachers />} />
+        <Route path="/category/:category_slug" element={<CategoryCourses />} />
       </Switch>
       <Footer />
     </div>

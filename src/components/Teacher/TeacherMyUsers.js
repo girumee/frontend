@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import TeacherSidebar from "./TeacherSidebar";
 
-function TeacherMyCourses() {
+function TeacherMyUses() {
   return (
     <div className="container mt-4">
       <div className="row">
@@ -10,7 +10,7 @@ function TeacherMyCourses() {
         </aside>
         <section className="col-md-9">
           <div className="card">
-            <h5 className="card-header"> Trainings</h5>
+            <h5 className="card-header"> Users Name</h5>
             <div className="card-body">
               <table className="table table-bordered">
                 <thead>
@@ -21,7 +21,7 @@ function TeacherMyCourses() {
                   </tr>
                 </thead>
                 <tbody>
-                  <td>Php Development</td>
+                  <td> Joy Lola</td>
                   <td>
                     <Link to="/"> Daniel Muluneh </Link>
                   </td>
@@ -40,4 +40,4 @@ function TeacherMyCourses() {
   );
 }
 
-export default TeacherMyCourses;
+export default TeacherMyUses;

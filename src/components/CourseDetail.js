@@ -9,16 +9,16 @@ function CourseDetail() {
       <div className="row">
         <div className="col-4">
           {" "}
-          <img src="/logo512.png" className="img-thumbnail" alt="..." />
+          <img src="/django.png" className="img-thumbnail" alt="..." />
         </div>
         <div className="col-8">
-          <h3>Course Title</h3>
+          <h3>Training Title</h3>
           <p>
             Using a combination of grid and utility classes, cards can be made
             horizontal in a mobile-friendly and responsive way.{" "}
           </p>
           <p className="fw-bold">
-            Course By: <Link to="/teacher_detail/1 ">Teacher 1</Link>
+            Course By: <Link to="/teacher-detail/1 ">Trainer 1</Link>
           </p>
           <p className="fw-bold">
             Duration: <a href="#">3 Hours 30 minutes </a>{" "}
@@ -29,7 +29,7 @@ function CourseDetail() {
 
       {/* Course Video */}
       <div className="card mt-4">
-        <h3 className="card-header">Course Videos</h3>
+        <h3 className="card-header">Training Videos</h3>
         <ul className="list-group list-group-flush">
           <li className="list-group-item">
             Introduction{" "}
@@ -62,7 +62,7 @@ function CourseDetail() {
                       aria-label="Close"></button>
                   </div>
                   <div className="modal-body">
-                    <div class="ratio ratio-16x9">
+                    <div className="ratio ratio-16x9">
                       <iframe
                         src="https://www.youtube.com/watch?v=qbPxZPsjhbg"
                         title="YouTube video"
@@ -130,7 +130,7 @@ function CourseDetail() {
             </Link>
             <div className="card-body">
               <h5 className="card-title">
-                <Link to="/detail/1">Course Title</Link>
+                <Link to="/course-detail/1">Course Title</Link>
               </h5>
             </div>
           </div>
@@ -142,7 +142,7 @@ function CourseDetail() {
             </Link>
             <div className="card-body">
               <h5 className="card-title">
-                <Link to="/detail/2">Course Title</Link>
+                <Link to="/course-detail/2"> Course Title</Link>
               </h5>
             </div>
           </div>

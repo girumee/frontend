@@ -10,26 +10,29 @@ function TeacherAddCourses() {
         </aside>
         <section className="col-md-9">
           <div className="card">
-            <h5 className="card-header"> Add Course</h5>
+            <h5 className="card-header"> Add Training</h5>
             <div className="card-body">
-              <div class="mb-3">
-                <label class="form-label">Title</label>
+              <div className="mb-3">
+                <label className="form-label">Title</label>
                 <input
                   type="text"
                   id="title"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Title"
                 />
               </div>
-              <div class="mb-3">
-                <label for="Description" id="Description" class="form-label">
+              <div className="mb-3">
+                <label
+                  for="Description"
+                  id="Description"
+                  className="form-label">
                   Description
                 </label>
-                <textarea class="form-control" rows="2"></textarea>
+                <textarea className="form-control" rows="2"></textarea>
               </div>
               <div className="mb-2 row">
                 <label for="video" className="form-label">
-                  Course Video
+                  Training Video
                 </label>
                 <div className="col-sm-6">
                   <input type="File" className="form-control" id="formVideo" />
