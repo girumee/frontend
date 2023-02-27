@@ -1,9 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./styles.css";
+import "./footer.css";
 
 function Footer() {
   return (
-    <footer className="text-muted py-5 border-top mt-5">
+    <footer className="text-muted py-5 bg-secondary sticky-footer border-top mt-5">
       <div className="container">
         <p className="float-end mb-1">
           <a href="#">Back to top</a>
@@ -24,11 +25,11 @@ function Footer() {
         </p> */}
 
         <div
-          class="chakra-stack css-1j1nnh3"
+          className="chakra-stack css-1j1nnh3"
           // style="flex-wrap: wrap; justify-content: center;"
         >
           <span>
-            <div class="css-0">
+            <div className="css-0">
               <svg
                 stroke="currentColor"
                 fill="currentColor"
@@ -45,7 +46,7 @@ function Footer() {
             </div>
           </span>
           <span>
-            <div class="css-0">
+            <div className="css-0">
               <a href="https://www.youtube.com/@danenergy4985/featured">
                 <svg
                   stroke="currentColor"
@@ -64,7 +65,7 @@ function Footer() {
             </div>
           </span>
           <span>
-            <div class="css-0">
+            <div className="css-0">
               <svg
                 stroke="currentColor"
                 fill="currentColor"
@@ -81,7 +82,7 @@ function Footer() {
             </div>
           </span>
           <span>
-            <div class="css-0">
+            <div className="css-0">
               <a href="https://twitter.com/DanEnergyET">
                 <svg
                   stroke="currentColor"
@@ -100,7 +101,7 @@ function Footer() {
             </div>
           </span>
           <span>
-            <div class="css-0">
+            <div className="css-0">
               <svg
                 stroke="currentColor"
                 fill="currentColor"
@@ -117,7 +118,7 @@ function Footer() {
             </div>
           </span>
           <p
-            class="chakra-text css-itvw0n dan"
+            className="chakra-text css-itvw0n dan"
             // style="width: 100%; text-align: center; justify-content: center; margin: 0px; padding-top: 10px;"
           >
             © 2023 Dan Energy. All rights reserved

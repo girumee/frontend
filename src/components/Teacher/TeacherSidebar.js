@@ -17,12 +17,12 @@ function TeacherSidebar() {
         <Link
           to="/teacher-add-course"
           className="list-group-item list-group-item-action">
-          <i class="bi bi-database-add"></i> Add Training
+          <i className="bi bi-database-add"></i> Add Training
         </Link>
         <Link
           to="/teacher-my-users"
           className="list-group-item list-group-item-action">
-          <i class="bi bi-person"></i> Users
+          <i className="bi bi-person"></i> Users
         </Link>
         <Link
           to="/teacher-profile-setting"

@@ -20,6 +20,7 @@ import TeacherLogout from "./Teacher/TeacherLogout";
 import TeacherRegister from "./Teacher/TeacherRegister";
 import TeacherDashboard from "./Teacher/TeacherDashboard";
 import TeacherMyCourses from "./Teacher/TeacherMyCourses";
+import AddChapter from "./Teacher/AddChapter";
 import TeacherAddCourses from "./Teacher/TeacherAddCourses";
 import TeacherMyUses from "./Teacher/TeacherMyUsers";
 import TeacherProfileSetting from "./Teacher/TeacherProfileSetting";
@@ -58,6 +59,7 @@ function Main() {
         <Route path="/teacher-register/" element={<TeacherRegister />} />
         <Route path="/teacher-dashboard/" element={<TeacherDashboard />} />
         <Route path="/teacher-my-Courses/" element={<TeacherMyCourses />} />
+        <Route path="/add-chapter/:course_id" element={<AddChapter />} />
         <Route path="/teacher-my-Users/" element={<TeacherMyUses />} />
         <Route path="/teacher-add-course/" element={<TeacherAddCourses />} />
         <Route

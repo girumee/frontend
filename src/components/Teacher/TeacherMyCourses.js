@@ -26,9 +26,14 @@ function TeacherMyCourses() {
                     <Link to="/"> Daniel Muluneh </Link>
                   </td>
                   <td>
-                    <button className="btn btn-danger btn-sm active">
+                    <button className="btn btn-danger btn-sm active mx-4">
                       Delete
                     </button>
+                    <Link
+                      to="/add-chapter/2 "
+                      className="btn btn-success btn-sm active ml-1">
+                      Add Chapter
+                    </Link>
                   </td>
                 </tbody>
               </table>

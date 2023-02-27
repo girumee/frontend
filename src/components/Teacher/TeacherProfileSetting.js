@@ -24,7 +24,7 @@ function TeacherProfileSetting() {
               </div>
               <div className="mb-2 row">
                 <label
-                  for="exampleFormControlInput1"
+                  htmlFor="exampleFormControlInput1"
                   className="col-sm-2 col-form-label">
                   Email
                 </label>
@@ -38,7 +38,7 @@ function TeacherProfileSetting() {
                 </div>
               </div>
               <div className="mb-2 row">
-                <label for="formFile" className="col-sm-2 col-form-label">
+                <label htmlFor="formFile" className="col-sm-2 col-form-label">
                   Profile Picture
                 </label>
                 <div className="col-sm-6">
@@ -51,7 +51,9 @@ function TeacherProfileSetting() {
                 </div>
               </div>
               <div className="mb-2 row">
-                <label for="inputPassword" className="col-sm-2 col-form-label">
+                <label
+                  htmlFor="inputPassword"
+                  className="col-sm-2 col-form-label">
                   Password
                 </label>
                 <div className="col-sm-6">

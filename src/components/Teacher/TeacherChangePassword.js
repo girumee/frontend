@@ -13,7 +13,9 @@ function TeacherChangePassword() {
             <h5 className="card-header">Profile Setting</h5>
             <div className="card-body">
               <div className="mb-2 row">
-                <label for="inputPassword" className="col-sm-2 col-form-label">
+                <label
+                  htmlFor="inputPassword"
+                  className="col-sm-2 col-form-label">
                   Old Password
                 </label>
                 <div className="col-sm-6">
@@ -26,7 +28,9 @@ function TeacherChangePassword() {
                 </div>
               </div>
               <div className="mb-2 row">
-                <label for="inputPassword" className="col-sm-2 col-form-label">
+                <label
+                  htmlFor="inputPassword"
+                  className="col-sm-2 col-form-label">
                   New Password
                 </label>
                 <div className="col-sm-6">

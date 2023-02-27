@@ -91,7 +91,7 @@ function Header() {
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false">
-                User
+                Trainee
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
