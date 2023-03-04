@@ -124,7 +124,7 @@ function TeacherAddCourses() {
                 </select>
               </div>
               <div className="mb-3">
-                <label className="form-label">Title</label>
+                <label className="form-label">Training Title</label>
                 <input
                   onChange={handleChange}
                   type="text"
@@ -160,7 +160,7 @@ function TeacherAddCourses() {
               </div>
 
               <div className="mb-2 row">
-                <label className="col-sm-2 col-form-label">Technologist</label>
+                <label className="col-sm-2 col-form-label">Technologies</label>
                 <div className="col-sm-6">
                   <input
                     onChange={handleChange}

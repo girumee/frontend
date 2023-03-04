@@ -10,10 +10,7 @@ function TeacherDetail() {
         </div>
         <div className="col-8">
           <h3>Lula Joy </h3>
-          <p>
-            Using a combination of grid and utility classes, cards can be made
-            horizontal in a mobile-friendly and responsive way.{" "}
-          </p>
+          <p>I'm a Trainer. </p>
           <p className="fw-bold">
             Skills: <Link to="/category/django">Django</Link>,{" "}
             <Link to="/category/django">JavaScript</Link>,{" "}

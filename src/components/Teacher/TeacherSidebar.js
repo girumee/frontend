@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
 
 function TeacherSidebar() {
+  useEffect(() => {
+    document.title = "DashBoard | Dan";
+  });
+
   return (
     <div className="card">
       <div className="list-group list-group-flush">
