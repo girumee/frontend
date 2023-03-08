@@ -11,11 +11,12 @@ function TeacherMyCourses() {
   });
 
   const [courseData, setCourseData] = useState([]);
+  const teacherId = localStorage.getItem("teacherId");
 
   //Fetch trainings when the page load
   useEffect(() => {
     try {
-      axios.get(baseUrl + "/teacher-courses/13").then((res) => {
+      axios.get(baseUrl + "/teacher-courses/" + teacherId).then((res) => {
         setCourseData(res.data);
       });
     } catch (error) {

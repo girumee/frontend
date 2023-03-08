@@ -45,14 +45,14 @@ function TeacherAddCourses() {
   };
   // End Change Element Value
 
-  //start Change Element Value
+  //start FileChange Element Value
   const handleFileChange = (event) => {
     setCourseData({
       ...courseData,
       [event.target.name]: event.target.files[0],
     });
   };
-  // End Change Element Value
+  // End FileChange Element Value
 
   //start Submit Form
   const submitForm = () => {
@@ -75,7 +75,7 @@ function TeacherAddCourses() {
           },
         })
         .then((res) => {
-          console.log(res.data);
+          window.location.href = "/teacher-add-course";
         });
     } catch (error) {
       console.log(error);
